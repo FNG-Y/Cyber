@@ -1,6 +1,6 @@
 package game;
 
-public class Main {
+public class ExamHarness {
     public static void main(String[] args) {
         // 1. 初始化战斗场（对应你示例中的 service）
         BattleArena arena = new BattleArena();
@@ -38,3 +38,4 @@ public class Main {
         System.out.println("Final Enemy HP: " + enemy.getCurrentHP());
     }
 }
+
